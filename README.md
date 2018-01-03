@@ -6,6 +6,8 @@ This project is a port of the famous Free Admin Bootstrap Theme [SB Admin v2.0](
 
 Find out more [Free React.js and React Native Themes at StartReact.com](http://www.startreact.com/).
 
+Forked from [start-react/sb-admin-react](https://github.com/start-react/sb-admin-react).
+
 ## [Demo](http://sb-admin-react.geekydev.com:3009/)
 
 ## Installation
