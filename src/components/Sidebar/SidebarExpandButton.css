@@ -1,0 +1,12 @@
+.sidebar-expand-button-container {
+  position: absolute;
+  left: 20%;
+  top: 150%;
+  height: 100px;
+  z-index: 100;
+}
+
+.sidebar-expand-button-container button {
+  min-height: 50px;
+  min-width: 50px;
+}
