@@ -16,4 +16,15 @@ describe("Sidebar", function () {
     chai.expect(sidebar.find(SidebarContent)).to.have.length(1);
     chai.expect(sidebar.find(SidebarExpandButton)).to.have.length(1);
   });
+
+  it("should, when state.isShown===false, have <SidebarExpandButton/> but no <SidebarContent/> ", function () {
+    // given
+    // when
+    let sidebar = shallow(<Sidebar/>);
+    sidebar.setState({isShown: false});
+
+    // then
+    chai.expect(sidebar.find(SidebarContent)).to.have.length(0);
+    chai.expect(sidebar.find(SidebarExpandButton)).to.have.length(1);
+  });
 });
