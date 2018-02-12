@@ -6,10 +6,12 @@ import SidebarExpandButton from "./SidebarExpandButton";
 class Sidebar extends Component {
 
   render() {
-    return <div>
-      <SidebarContent/>;
-      <SidebarExpandButton/>;
-    </div>
+    return (
+      <div>
+        <SidebarContent/>
+        <SidebarExpandButton/>
+      </div>
+    )
   }
 
 }
