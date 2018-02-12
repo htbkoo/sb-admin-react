@@ -82,6 +82,7 @@
     "gaze": "^1.1.1",
     "git-repository": "^0.1.4",
     "glob": "^7.0.6",
+    "ignore-styles": "^5.0.1",
     "jsdom": "^11.6.2",
     "jsdom-global": "^3.0.2",
     "json-loader": "^0.5.4",
